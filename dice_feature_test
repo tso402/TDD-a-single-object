@@ -35,3 +35,14 @@ dice = Dice.new
 dice.roller(3)
 
 => 3 numbers between 1 and 6
+
+#As a board game player,
+#So that I know what my score was when I rolled several dice
+#I want to get the result of each dice roll
+
+require './lib/dice.rb'
+dice = Dice.new
+dice.roller(3)
+dice.total
+
+=> Total of the roll
