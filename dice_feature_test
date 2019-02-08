@@ -15,3 +15,13 @@ dice = Dice.new
 dice.roll
 
 => A number between 1 and 6
+
+#As a dice app developer,
+#So that I give players a good game experience
+#I want the dice roll to be randomly picked
+
+require './lib/dice.rb'
+dice = Dice.new
+dice.roll
+
+=> A random number between 1 and 6
