@@ -16,6 +16,12 @@ describe Dice do
     expect(resultsA).not_to equal(resultsB)
   end
 
+  it 'allows multiple dice to be rolled at the same time' do
+    expect(subject.roller(3).count).to eq 3
+  end
+
+  
+
 
 
 end

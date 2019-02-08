@@ -12,7 +12,7 @@ I want the dice roll to be randomly picked # Passing but not sure if right appro
 
 As a board game player,
 So that I can play many types of games
-I want to be able to roll any number of dice at the same time
+I want to be able to roll any number of dice at the same time # Getting right output but not convinced of input
 
 As a board game player,
 So that I know what my score was when I rolled several dice

@@ -25,3 +25,13 @@ dice = Dice.new
 dice.roll
 
 => A random number between 1 and 6
+
+#As a board game player,
+#So that I can play many types of games
+#I want to be able to roll any number of dice at the same time
+
+require './lib/dice.rb'
+dice = Dice.new
+dice.roller(3)
+
+=> 3 numbers between 1 and 6
